@@ -3,6 +3,7 @@
     height: calc(100vh - 100px);
     overflow-y: scroll;
 
+
 }
 
 /* ::-webkit-scrollbar{
@@ -37,6 +38,7 @@
 .sidebarIcon{
     margin-left: 10px;
     margin-right: 15px;
+    color: gray;
 }
 
 .sidebarHr{

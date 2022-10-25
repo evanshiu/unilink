@@ -6,15 +6,14 @@ import "./home.css"
 
 export default function home() {
   return (
-
-    <>
+    <div className="pageContainer">
       <Topbar/>
       <div className="homeContainer">
         <Sidebar/>
         <Feed/>
         <Rightbar/>
       </div>
-    </>
+    </div>
   );
 }
 

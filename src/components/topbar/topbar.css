@@ -5,32 +5,35 @@
     display: flex;
     align-items: center;
     position: sticky;
-    background-color:  rgba(40, 36, 36);
+    background-color:  rgba(255, 255, 255, 0);
     
 }
 
 .topbarLeft{
     display: flex;
+    flex: 3;
 }
 .topbarCenter{
-    flex: 1;
+    flex: 5.5;
     align-items: center;
     justify-content: center;
     display: flex;
 
 }
 .topbarRight{
-    width: 200px;
+    /* width: 200px;
+     */
+    flex: 3;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .searchBar{
-    width: 60%;
+    width: calc(100% - 40px);
     height: 40px;
     margin-left: 0%;
-    background-color: gray;
+    background-color: rgb(255, 249, 246);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -43,7 +46,7 @@
 
 .searchInput{
     height: 25px;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     margin-right: 20px;
     width: 90%;
@@ -52,7 +55,7 @@
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgba(57, 49, 49);;
+    color:gray;
     opacity: 1; /* Firefox */
     }
 
@@ -63,9 +66,9 @@
 .logo{
     font-size: 30px;
     margin-left: 30px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     font-weight: bold;
-    color: white;
+    color: rgb(243, 97, 12);
     cursor: pointer;
 }
 
@@ -77,16 +80,16 @@
 
 .topbarIcon{
     cursor: pointer;
-    color: white;
+    color: gray;
     position: relative;
     margin: 10px;
 }
 
 .iconNotification{
-    width: 6px;
-    height: 6px;
-    background-color: rgb(199, 42, 42);
-    border-radius: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(243, 97, 12);
+    border-radius: 4px;
     position: absolute;
     top: -5px;
     right: -5px;

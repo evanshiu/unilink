@@ -1,4 +1,9 @@
 .homeContainer{
     display: flex;
     width: 100%;
+    overflow: hidden;
+}
+
+.pageContainer{
+    background-image: linear-gradient(150deg, rgb(243, 239, 239), rgb(246, 217, 197), rgb(244, 244, 243));
 }
