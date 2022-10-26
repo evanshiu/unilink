@@ -1,8 +1,7 @@
 .sidebar{
-    flex: 3;
-    height: calc(100vh - 100px);
-    overflow-y: scroll;
-
+    flex: 2.5;
+    margin-right: 8%;
+    /* background-color: aliceblue; */
 
 }
 
@@ -51,17 +50,3 @@
     list-style: none;
 }
 
-.sidebarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.sidebarFriendImg{
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-    object-fit: cover;
-    margin-right: 15px;
-    margin-left: 10px;
-}

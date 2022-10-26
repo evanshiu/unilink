@@ -11,6 +11,36 @@ export const Users = [
         username: "Not Evan Shiu",
         verified: false
     },
+    {
+        id: "not_evan",
+        profilePicture: "../../assets/IMG_0482.png",
+        username: "Not Not Evan Shiu",
+        verified: false
+    },
+    {
+        id: "not_evan2",
+        profilePicture: "../../assets/IMG_0482.png",
+        username: "Not Not Evan Shiu",
+        verified: false
+    },
+    {
+        id: "not_evan3",
+        profilePicture: "../../assets/IMG_0482.png",
+        username: "Not Not Evan Shiu",
+        verified: false
+    },
+    {
+        id: "not_evan4",
+        profilePicture: "../../assets/IMG_0482.png",
+        username: "Not Not Evan Shiu",
+        verified: false
+    },
+    {
+        id: "not_evan5",
+        profilePicture: "../../assets/IMG_0482.png",
+        username: "Not Not Evan Shiu",
+        verified: false
+    },
      
 ];
 

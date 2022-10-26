@@ -1,3 +1,10 @@
 .rightbar{
-    flex: 3;
+    flex: 2.5;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 0px;
+    margin-left: 8%;
+    /* background-color: aliceblue; */
+
 }
